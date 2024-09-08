@@ -1,59 +1,75 @@
 body {
-    background-color: #000107; /* Change the background color */
+    background-color: #000107;
+    /* Change the background color */
     font-family: Arial, sans-serif;
 }
-.project-img{
+
+.project-img {
     border: 1px solid #f4e0e0;
     border-radius: 10px;
 }
-.profile-button{
+
+.profile-button {
     color: #ffffff !important;
     background-color: #6244C5;
 }
-.profile-button a{
+
+.profile-button a {
     color: #ffffff !important;
 }
-.profile-button:hover{
+
+.profile-button:hover {
     background-color: #8460fc;
 }
-.side-heading{
+
+.side-heading {
     color: #0067d4;
     font-size: 16px;
     font-weight: 500;
 }
-.sub-heading{
+
+.sub-heading {
     color: #fbff00;
     font-size: 20px;
     font-weight: 600;
 }
-h6{
+
+h6 {
     color: #0067d4;
     font-size: 20px;
     font-weight: 500;
 }
-h2, h4, h5 {
+
+h2,
+h4,
+h5 {
     color: #fff;
 }
-p{
+
+p {
     color: #b4b4b4;
     font-size: 18px;
     line-height: 30px;
 }
-.text-warning{
+
+.text-warning {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.warning-img{
+
+.warning-img {
     padding-top: 5%;
     height: 15%;
     width: 8%;
 }
-.project-heading{
+
+.project-heading {
     display: flex;
     justify-content: center;
 }
-.under-buttons{
+
+.under-buttons {
     display: flex;
     justify-content: space-between;
 }
