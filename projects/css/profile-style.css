@@ -16,15 +16,26 @@ body {
 .profile-button:hover{
     background-color: #8460fc;
 }
+.side-heading{
+    color: #0067d4;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sub-heading{
+    color: #fbff00;
+    font-size: 20px;
+    font-weight: 600;
+}
 h6{
     color: #0067d4;
     font-size: 20px;
     font-weight: 500;
 }
-h2, h5 {
+h2, h4, h5 {
     color: #fff;
 }
 p{
+    color: #b4b4b4;
     font-size: 18px;
     line-height: 30px;
 }
@@ -41,4 +52,8 @@ p{
 .project-heading{
     display: flex;
     justify-content: center;
+}
+.under-buttons{
+    display: flex;
+    justify-content: space-between;
 }

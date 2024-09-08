@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
@@ -282,7 +282,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(98, 68, 197, .9);
+    background: #6244c5e6;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -295,6 +295,14 @@
 .portfolio-item:hover .portfolio-btn {
     opacity: 1;
     padding-bottom: 30px !important;
+}
+
+.project-img:hover {
+    opacity: 80%;
+    visibility: visible;
+    transition: 2s;
+    animation-delay: 0.1s;
+    animation-name: fadeInUp;
 }
 
 
